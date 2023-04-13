@@ -52,7 +52,7 @@ app.use((req, res, next) => {
 
 // Example route
 app.get('/', (req, res) => {
-  res.send('Hello, world!');
+  res.send("Database Connection Success!");
 });
 
 const port = 3000; // Set the desired port number
